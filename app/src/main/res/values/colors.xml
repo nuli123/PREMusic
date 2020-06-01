@@ -3,4 +3,7 @@
     <color name="colorPrimary">#ff1744</color>
     <color name="colorPrimaryDark">#212121</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="category_artists">#FD8E09</color>
+    <color name="category_music">#8800A0</color>
 </resources>

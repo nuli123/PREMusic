@@ -8,15 +8,15 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
         android:text="Artists"
-        android:id="@+id/artists_activity"/>
+        android:id="@+id/artists_activity"
+        android:background="@color/category_artists"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
         android:text="Music"
-        android:id="@+id/music_activity"/>
+        android:id="@+id/music_activity"
+        android:background="@color/category_music"/>
 
 </LinearLayout>
