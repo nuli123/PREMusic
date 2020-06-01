@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -54,6 +55,10 @@ public class MusicAdapter extends ArrayAdapter {
         // Find the TextView in the list_music.xml layout with ID artist
         TextView artist = listItemView.findViewById(R.id.artist);
         artist.setText(currMusic.getArtistName());
+        // ImageView of play icon
+        Button playButton = listItemView.findViewById(R.id.playButton);
+        View.OnClickListener playListener = new PlayOnClickListener(currMusic, NowPlaying.class);
+        playButton.setOnClickListener(playListener);
         return listItemView;
     }
 }

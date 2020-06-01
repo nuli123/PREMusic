@@ -32,8 +32,17 @@
             android:textSize="12dp"
             android:textColor="@android:color/darker_gray"
             android:inputType="textCapWords"
-            tools:text="Lady Gaga"/>
+            tools:text="Lady Gaga"/>        
 
     </LinearLayout>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/playButton"
+        android:text="PLAY"
+        android:textSize="8sp"
+        android:textStyle="italic"
+        android:background="@color/play_button"/>
+
 
 </LinearLayout>

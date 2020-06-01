@@ -6,4 +6,7 @@
 
     <color name="category_artists">#FD8E09</color>
     <color name="category_music">#8800A0</color>
+
+    <color name="play_button">#E0E0E0</color>
+    <color name="background">#FFEBEE</color>
 </resources>

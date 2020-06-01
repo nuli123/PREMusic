@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MusicActivity"
+    android:background="@color/background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/artistName"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        android:textColor="#DD2C00"
+        tools:text="Lady Gaga"
+        android:inputType="textCapWords"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/artistImage"
+        tools:src="@drawable/lady_gaga"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/songName"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        tools:text="Rain On Me"
+        android:inputType="textCapWords"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"/>
+
+</LinearLayout>
